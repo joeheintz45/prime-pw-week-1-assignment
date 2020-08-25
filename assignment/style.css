@@ -1,11 +1,47 @@
+@charset "UTF-8";
 /* Give your page a fun background color */
-
+body {
+  background-color: #ffe6ff;
+  width: 97%;
+  margin: auto;
+  border-radius: 8px;
+}
 /* Make the header and footer a different color from the background */
-
+header, footer {
+  background-color: #6600cc;
+  height: 90px;
+  border-radius: 8px;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+  font-family: fantasy;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
 /* Make your p tag a different color and italic */
-
+p {
+  font-size: 1.2em;
+  color: white;
+  font-style: italic;
+  padding-top: 30px;
+  padding-left: 15px;
+  text-align: center;
+}
 /* Put a border around your image */
-
+img {
+  border: 5px solid #ff33cc;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Change the font-family of your list */
+ul {
+  font-family: fantasy;
+  padding-left: 300px;
+}
+
+div {
+  padding-top:10px;
+}
